@@ -5,4 +5,5 @@
         $Email = $_POST["Email"];
         print ("<br>Your email is $Email");
         ?>
+    </body>
 </html>
