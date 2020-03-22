@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Carpet Estimate</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <font size ="5" color ="blue">Carpet Cost Estimator!</font>
+        <form action ="CalculateCost.php" method="POST">
+            <table>
+                <tr><td>Carpet grade: </td>
+                    <td><input type="radio" name="grade" value =1>Best Quality</td>
+                    <td><input type="radio" name="grade" value =2>Extra Value</td>
+                </tr>
+                <tr>
+                    <td>Room width (in m2): </td>
+                    <td colspan="2"><input type="text" name="width" size = 4 maxlength=4></td>
+                </tr>
+                <tr>
+                    <td>Room length (in m2): </td>
+                    <td colspan="2"><input type="text" name="length" size = 4 maxlength=4></td>
+                </tr>
+                <tr>
+                    <td align="right"><input type="Submit" value ="Submit"></td>
+                    <td align="left"><input type="Reset" value ="Reset"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
