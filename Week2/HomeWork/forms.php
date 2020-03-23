@@ -6,7 +6,7 @@
     <title>Form receiver</title>
 </head>
 <body>
-    <p>Thank you, got your input</p>
+    <p>Your information</p>
     <?php
         $fullname = $_POST['fullname'];
         $class = $_POST ['class'];
@@ -14,11 +14,12 @@
         $gender = $_POST ['gender'];
         $birthday = $_POST ['birthday'];
         
-        print("<p>Hello $fullname, you are studying at $class, $university </p>");
-        print("<p>Your gender is $gender</p>");
-        print ("<p>Your birthday is $birthday</p>");
+        print("<br><p>Hello $fullname, you are studying at $class, $university </p>");
+        print("<br><p>Your gender is $gender</p>");
+        print ("<br><p>Your birthday is $birthday</p>");
        
-        print("<p>Your hobby: </p>");
+        print("<br><p>Your hobby: </p>");
+        print ("<ol>");
         foreach($_POST['checkboxname'] as $value) {
             print("<p>$value</p>");
         }
