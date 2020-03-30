@@ -1,5 +1,10 @@
 <html>
     <head><title>Distance and Time Calculations</title></head>
+    <style media="screen">
+      table, th, td {
+        border: 1px solid black;
+      }
+    </style>
     <body>
         <?php
         $cities = array(
@@ -40,7 +45,7 @@
                             print "<td>$time</td>";
                             print "<td>$walktime</td>";
                         } else {
-                            print "<td colspan='3'>Sorry we don't have destination information.</td>";
+                            print "<td colspan=\"3\">Sorry we don't have destination information.</td>";
                         }
                         print "</tr>";
                     }
