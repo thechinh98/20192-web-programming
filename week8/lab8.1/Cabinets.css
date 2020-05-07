@@ -1,0 +1,19 @@
+H1{
+    text-align: center
+}
+
+P {
+    margin: 0.25in;
+    border: 0.25in solid black;
+    padding: 0.25in;
+    background: URL(img/bone-paper.jpg);
+}
+body {
+    background: URL(img/bricks.jpg);
+}
+
+.banner{
+    background: URL(img/boards.jpg) repeat-x;
+    font-size: 50pt;
+    font-family: Arial Rounded MT bold
+}
